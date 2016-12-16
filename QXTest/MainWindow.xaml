@@ -168,7 +168,7 @@
 
                                 </ig:XamDataChart>
                                 <ig:Legend x:Name="titleLegend" Content="图例" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="6"/>
-                                <ig:XamNumericRangeSlider IsMouseWheelEnabled="True" Margin="42,0,6,8" Grid.Row="1" d:LayoutOverrides="Height" MinValue="0" MaxValue="540" DecreaseButtonVisibility="Collapsed" IncreaseButtonVisibility="Collapsed" SmallChange="5">
+                                <ig:XamNumericRangeSlider IsMouseWheelEnabled="True" Margin="60,0,6,8" Grid.Row="1" d:LayoutOverrides="Height" MinValue="0" MaxValue="{Binding MaximumValue, ElementName=xAxis}" DecreaseButtonVisibility="Collapsed" IncreaseButtonVisibility="Collapsed" SmallChange="5">
                                     <ig:XamNumericRangeSlider.TickMarks>
                                         <ig:SliderTickMarks TickMarksFrequency="10" />
                                     </ig:XamNumericRangeSlider.TickMarks>

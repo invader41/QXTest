@@ -12,7 +12,7 @@
          <Members>
           <Member Name="#ReadQXFile(System.String,System.Exception&amp;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2016-12-16 06:59:43Z" FixCategory="DependsOnFix">
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2016-12-16 07:21:18Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\psy\Source\Repos\QXTest\QXTest" File="QXReader.cs" Line="33">可以在方法 'QXReader.ReadQXFile(string, out Exception)' 中多次释放对象 'fs'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 33</Issue>
             </Message>
            </Messages>
@@ -27,7 +27,7 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-12-16 06:59:43Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-12-16 07:21:18Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\psy\Source\Repos\QXTest\QXTest\ViewModel" File="MainViewModel.cs" Line="152">'MainViewModel.MainViewModel()' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;MainViewModel..ctor()&#xD;&#xA;MainViewModel.set_QXList(List&lt;QX&gt;):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void。</Issue>
             </Message>
            </Messages>
