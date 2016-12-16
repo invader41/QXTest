@@ -44,8 +44,8 @@ namespace QXTest
                 List<double> atrangetmp = atrange.Select<QXItem, double>(q => { return q.Value - r.TroughOfWave; }).ToList();
                 List<double> acrangetmp = acrange.Select<QXItem, double>(q => { return q.Value - r.TroughOfWave; }).ToList();
 
-                r.SumT = atrangetmp.Sum()/2;
-                r.SumC = acrangetmp.Sum()/2;
+                r.SumT = atrangetmp.Sum();
+                r.SumC = acrangetmp.Sum();
 
 
 

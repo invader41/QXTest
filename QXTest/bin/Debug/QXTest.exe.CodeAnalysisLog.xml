@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\QXTest.exe">
+   <Modules>
+    <Module Name="qxtest.exe">
+     <Namespaces>
+      <Namespace Name="QXTest">
+       <Types>
+        <Type Name="QXReader" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ReadQXFile(System.String,System.Exception&amp;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2016-12-16 06:59:43Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\psy\Source\Repos\QXTest\QXTest" File="QXReader.cs" Line="33">可以在方法 'QXReader.ReadQXFile(string, out Exception)' 中多次释放对象 'fs'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 33</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="QXTest.ViewModel">
+       <Types>
+        <Type Name="MainViewModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2016-12-16 06:59:43Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\psy\Source\Repos\QXTest\QXTest\ViewModel" File="MainViewModel.cs" Line="152">'MainViewModel.MainViewModel()' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;MainViewModel..ctor()&#xD;&#xA;MainViewModel.set_QXList(List&lt;QX&gt;):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>不要在构造函数中调用可重写的方法</Name>
+   <Description>不应通过构造函数调用类中定义的虚方法。如果某个派生类已重写该虚方法，则将在调用派生类的构造函数前，调用此派生类重写后的方法。</Description>
+   <Resolution Name="Default">{0} 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: {1}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>不要多次释放对象</Name>
+   <Description>可以多次调用正确实现的 Dispose 方法，而不会引发异常。但是，并不保证所有情况下都会如此。若要避免生成 System.ObjectDisposedException，您不应对一个对象多次调用 Dispose。</Description>
+   <Resolution Name="Default">可以在方法 {1} 中多次释放对象 {0}。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 33</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

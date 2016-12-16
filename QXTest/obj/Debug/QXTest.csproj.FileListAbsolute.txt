@@ -1,0 +1,251 @@
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\QXTest.exe
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\QXTest.pdb
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\QXTest.exe.CodeAnalysisLog.xml
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\QXTest.exe.lastcodeanalysissucceeded
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.WPF4.xml
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.Extras.WPF4.xml
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\MainWindow.baml
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\Skins\MainSkin.baml
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\MainWindow.g.cs
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\App.g.cs
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\QXTest_MarkupCompile.cache
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\QXTest_MarkupCompile.lref
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\App.baml
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\QXTest.g.resources
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\QXTest.Properties.Resources.resources
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\QXTest.exe
+C:\Users\psy\documents\visual studio 2010\Projects\QXTest\QXTest\obj\Debug\QXTest.pdb
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Charts.XamDataChart.v12.1.xml
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Menus.XamMenu.v12.1.xml
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataVisualization.v12.1.xml
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DockManager.v12.1.xml
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.v12.1.xml
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.Controls.Menus.XamMenu.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.Controls.Menus.XamMenu.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.Controls.Menus.XamMenu.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.DataVisualization.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.DataVisualization.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.DataVisualization.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.DockManager.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.DockManager.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.DockManager.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\QXTest.exe.manifest
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\QXTest.application
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\obj\Debug\QXTest.exe.manifest
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\obj\Debug\QXTest.application
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Interactions.XamDialogWindow.v12.1.xml
+C:\Users\psy\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Editors.XamSlider.v12.1.xml
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Charts.XamDataChart.v12.1.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Editors.XamSlider.v12.1.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Interactions.XamDialogWindow.v12.1.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Menus.XamMenu.v12.1.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataVisualization.v12.1.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DockManager.v12.1.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.v12.1.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\obj\Debug\QXTest.exe.licenses
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataPresenter.v12.1.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Editors.v12.1.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataPresenter.v12.1.xml
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Editors.v12.1.xml
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.DataPresenter.v12.1.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.DataPresenter.v12.1.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.DataPresenter.v12.1.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.Editors.v12.1.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.Editors.v12.1.resources.dll
+C:\Users\PSY\Documents\Visual Studio 2010\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.Editors.v12.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\Skins\MainSkin.baml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\MainWindow.g.cs
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\App.g.cs
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest_MarkupCompile.cache
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest_MarkupCompile.lref
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\App.baml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\MainWindow.baml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest.g.resources
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest.Properties.Resources.resources
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest.csproj.GenerateResource.Cache
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest.pdb
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest.exe
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\QXTest.exe.manifest
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\QXTest.application
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\QXTest.exe
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\QXTest.pdb
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\QXTest.exe.CodeAnalysisLog.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\QXTest.exe.lastcodeanalysissucceeded
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Charts.XamDataChart.v15.1.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Editors.XamSlider.v15.1.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Interactions.XamDialogWindow.v15.1.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataPresenter.v15.1.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataVisualization.v15.1.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DockManager.v15.1.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Editors.v15.1.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.v15.1.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Charts.XamDataChart.v15.1.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Editors.XamSlider.v15.1.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Interactions.XamDialogWindow.v15.1.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataPresenter.v15.1.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataVisualization.v15.1.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DockManager.v15.1.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Editors.v15.1.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\InfragisticsWPF4.v15.1.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.DataPresenter.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.DataPresenter.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.DataPresenter.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.DataVisualization.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.DataVisualization.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.DataVisualization.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.DockManager.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.DockManager.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.DockManager.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.Editors.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.Editors.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.Editors.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.v15.1.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest.exe.manifest
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest.application
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\obj\Debug\QXTest.csprojResolveAssemblyReference.cache
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\psy\Documents\Visual Studio 2015\Projects\QXTest\QXTest\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest.exe
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest.pdb
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\QXTest.exe.manifest
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\QXTest.application
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\QXTest.exe
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\QXTest.pdb
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\QXTest.exe.CodeAnalysisLog.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\QXTest.exe.lastcodeanalysissucceeded
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Charts.XamDataChart.v15.1.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Editors.XamSlider.v15.1.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Interactions.XamDialogWindow.v15.1.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataPresenter.v15.1.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataVisualization.v15.1.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DockManager.v15.1.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Editors.v15.1.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.v15.1.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Charts.XamDataChart.v15.1.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Editors.XamSlider.v15.1.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Interactions.XamDialogWindow.v15.1.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataPresenter.v15.1.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DataVisualization.v15.1.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.DockManager.v15.1.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.Editors.v15.1.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\InfragisticsWPF4.v15.1.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.Controls.Menus.XamMenu.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.DataPresenter.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.DataPresenter.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.DataPresenter.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.DataVisualization.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.DataVisualization.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.DataVisualization.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.DockManager.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.DockManager.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.DockManager.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.Editors.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.Editors.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.Editors.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\de\InfragisticsWPF4.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\es\InfragisticsWPF4.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\fr\InfragisticsWPF4.v15.1.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest.csprojResolveAssemblyReference.cache
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\Skins\MainSkin.baml
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\MainWindow.g.cs
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\App.g.cs
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest_MarkupCompile.cache
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest_MarkupCompile.lref
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\App.baml
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\MainWindow.baml
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest.g.resources
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest.Properties.Resources.resources
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest.csproj.GenerateResource.Cache
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest.exe.manifest
+C:\Users\psy\Source\Repos\QXTest\QXTest\obj\Debug\QXTest.application

@@ -13,220 +13,228 @@
         Width="1280"
         Title="{Binding Title, StringFormat=QX测试 \{0\}}" Icon="Test Tube.png" WindowStartupLocation="CenterScreen"
         >
-    
-    <Window.Resources>
-    	<DataTemplate x:Key="XAxisLabelTemplate">
-    		<TextBlock Margin="1" Padding="1" FontSize="9" Text="{Binding Item.Key}"/>
-    	</DataTemplate>
-		<Style TargetType="{x:Type igEditors:XamNumericEditor}">
-			<Setter Property="Mask" Value="{}{number:1-9}"/>
-			<Setter Property="Mask" Value="{}{number:1-9}"/>
-		</Style>
 
-            <!-- Data Templates for Chart Info Strips -->
-    	<DataTemplate x:Key="VerticalInfoStripTemplate">
-    		<Grid Margin="0" Width="{Binding Width}" Height="{Binding Height}">
-    			<Rectangle Fill="{Binding Fill}" Opacity="1" />
-    			<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DimGray"
+    <Window.Resources>
+        <DataTemplate x:Key="XAxisLabelTemplate">
+            <TextBlock Margin="1" Padding="1" FontSize="9" Text="{Binding Item.Key}"/>
+        </DataTemplate>
+        <Style TargetType="{x:Type igEditors:XamNumericEditor}">
+            <Setter Property="Mask" Value="{}{number:1-9}"/>
+            <Setter Property="Mask" Value="{}{number:1-9}"/>
+        </Style>
+
+        <!-- Data Templates for Chart Info Strips -->
+        <DataTemplate x:Key="VerticalInfoStripTemplate">
+            <Grid Margin="0" Width="{Binding Width}" Height="{Binding Height}">
+                <Rectangle Fill="{Binding Fill}" Opacity="1" />
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DimGray"
     				FontSize="30" FontWeight="Bold" Text="{Binding Label}" RenderTransformOrigin=".5,.5">
-    				<TextBlock.RenderTransform>
-    					<RotateTransform Angle="90" />
-    				</TextBlock.RenderTransform>
-    			</TextBlock>
-    		</Grid>
-    	</DataTemplate>
-    	<StackPanel x:Key="toolTip" Orientation="Vertical">
-    		<StackPanel Orientation="Horizontal" Margin="0,0,0,4">
-    			<TextBlock Text="文件名: " FontWeight="Bold"/>
-    			<TextBlock Text="{Binding Series.Title}" />
-    		</StackPanel>
-    		<StackPanel Orientation="Horizontal">
-    			<TextBlock Text="X: " />
-    			<TextBlock Text="{Binding Item.Key}" />
-    		</StackPanel>
-    		<StackPanel Orientation="Horizontal">
-    			<TextBlock Text="Y: " />
-    			<TextBlock Text="{Binding Item.Value}" />
-    		</StackPanel>
-    	</StackPanel>
-    	<DataTemplate x:Key="CircleMarkerTemplate">
-    		<Ellipse Stretch="Fill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Fill="{Binding ActualItemBrush}" MinWidth="{Binding Value, ElementName=nSlider}" MinHeight="{Binding Value, ElementName=nSlider}" />
-    	</DataTemplate>
+                    <TextBlock.RenderTransform>
+                        <RotateTransform Angle="90" />
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+            </Grid>
+        </DataTemplate>
+        <StackPanel x:Key="toolTip" Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+                <TextBlock Text="文件名: " FontWeight="Bold"/>
+                <TextBlock Text="{Binding Series.Title}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="X: " />
+                <TextBlock Text="{Binding Item.Key}" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Y: " />
+                <TextBlock Text="{Binding Item.Value}" />
+            </StackPanel>
+        </StackPanel>
+        <DataTemplate x:Key="CircleMarkerTemplate">
+            <Ellipse Stretch="Fill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Fill="{Binding ActualItemBrush}" MinWidth="{Binding Value, ElementName=nSlider}" MinHeight="{Binding Value, ElementName=nSlider}" />
+        </DataTemplate>
 
     </Window.Resources>
 
-	<Window.DataContext>
-		<Binding Path="Main" Source="{StaticResource Locator}"/>
-	</Window.DataContext>
+    <Window.DataContext>
+        <Binding Path="Main" Source="{StaticResource Locator}"/>
+    </Window.DataContext>
 
     <Grid x:Name="LayoutRoot">
-    	<Grid.RowDefinitions>
-    		<RowDefinition Height="28"/>
-    		<RowDefinition/>
-    	</Grid.RowDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="28"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
 
-    	<igDock:XamDockManager Margin="4" Grid.Row="1" Theme="IGTheme">
-    		<igDock:XamDockManager.Panes>
-    			<igDock:SplitPane SplitterOrientation="Horizontal">
-    				<igDock:ContentPane Header="计算列表" CloseButtonVisibility="Collapsed" AllowClose="False">
-    					<Grid>
-    						<Grid.ColumnDefinitions>
-    							<ColumnDefinition/>
-    						</Grid.ColumnDefinitions>
-    						<Grid.RowDefinitions>
-    							<RowDefinition Height="30"/>
-    							<RowDefinition/>
-    						</Grid.RowDefinitions>
-    						<xctk:CheckListBox x:Name="fileList" Margin="2,2,2,4" Grid.Row="1" ItemsSource="{Binding QXList}" DisplayMemberPath="FileName" SelectedItemsOverride="{Binding SelectedQXList}" />
-    						<CheckBox Content="全选" Margin="3,0,0,0" VerticalAlignment="Bottom" IsChecked="{Binding SelectAll}" HorizontalAlignment="Left"/>
-    					</Grid>
-    				</igDock:ContentPane>
-    				<igDock:ContentPane Header="曲线列表" CloseButtonVisibility="Collapsed" AllowClose="False" Margin="0">
-    					<Grid>
-    						<Grid.ColumnDefinitions>
-    							<ColumnDefinition/>
-    						</Grid.ColumnDefinitions>
-    						<Grid.RowDefinitions>
-    							<RowDefinition Height="30"/>
-    							<RowDefinition Height="30"/>
-    							<RowDefinition/>
-    						</Grid.RowDefinitions>
-    						<xctk:CheckListBox x:Name="fileList1" Margin="2,2,2,4" Grid.Row="2" ItemsSource="{Binding QXList}" DisplayMemberPath="FileName" ItemSelectionChanged="fileList_ItemSelectionChanged" SelectedItemsOverride="{Binding SelectedChartQXList}" />
-    						<CheckBox Content="全选" Margin="3,0,0,0" VerticalAlignment="Bottom" IsChecked="{Binding SelectChartAll}" HorizontalAlignment="Left" Grid.Row="1"/>
-    						<ig:XamNumericSlider x:Name="nSlider" Margin="0" d:LayoutOverrides="Width, Height" VerticalAlignment="Bottom" MinWidth="100" Value="3" MaxValue="10" LargeChange="2"/>
-    					</Grid>
-    				</igDock:ContentPane>
-    			</igDock:SplitPane>
-    			<igDock:SplitPane SplitterOrientation="Horizontal" igDock:XamDockManager.InitialLocation="DockedRight">
-    				<igDock:ContentPane Header="文件属性" CloseButtonVisibility="Collapsed" AllowClose="False">
-    					<Grid>
-    						<Grid.RowDefinitions>
-    							<RowDefinition Height="30"/>
-    							<RowDefinition/>
-    						</Grid.RowDefinitions>
-    						<xctk:PropertyGrid SelectedObject="{Binding SelectedItem, ElementName=comboBox}" ShowSearchBox="False" ShowSortOptions="False" Grid.Row="1" />
-    						<ComboBox x:Name="comboBox" Margin="4" ItemsSource="{Binding QXList}" DisplayMemberPath="FileName"/>
-    					</Grid>
-    				</igDock:ContentPane>
-    			</igDock:SplitPane>
-    			<igDock:SplitPane SplitterOrientation="Horizontal"/>
-    			<igDock:SplitPane/>
-    			<igDock:SplitPane SplitterOrientation="Horizontal" igDock:XamDockManager.InitialLocation="DockedTop">
-    				<igDock:ContentPane Header="计算" CloseButtonVisibility="Collapsed" AllowClose="False">
-    					<Grid>
-    						<Grid.RowDefinitions>
-    							<RowDefinition Height="33.837"/>
-    							<RowDefinition/>
-    						</Grid.RowDefinitions>
-    						<igDP:XamDataGrid x:Name="datagrid" Grid.Row="1" Margin="4" Theme="IGTheme" DataSource="{Binding QXComputeResultList, Mode=OneWay}" IsUndoEnabled="True" BindToSampleData="True">
-    							<igDP:XamDataGrid.FieldLayoutSettings>
-    								<igDP:FieldLayoutSettings AllowFieldMoving="Yes"/>
-    							</igDP:XamDataGrid.FieldLayoutSettings>
-    							<igDP:XamDataGrid.FieldSettings>
-    								<igDP:FieldSettings AllowGroupBy="True"
+        <igDock:XamDockManager Margin="4" Grid.Row="1" Theme="IGTheme">
+            <igDock:XamDockManager.Panes>
+                <igDock:SplitPane SplitterOrientation="Horizontal">
+                    <igDock:ContentPane Header="计算列表" CloseButtonVisibility="Collapsed" AllowClose="False">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <xctk:CheckListBox x:Name="fileList" Margin="2,2,2,4" Grid.Row="1" ItemsSource="{Binding QXList}" DisplayMemberPath="FileName" SelectedItemsOverride="{Binding SelectedQXList}" />
+                            <CheckBox Content="全选" Margin="3,0,0,0" VerticalAlignment="Bottom" IsChecked="{Binding SelectAll}" HorizontalAlignment="Left"/>
+                        </Grid>
+                    </igDock:ContentPane>
+                    <igDock:ContentPane Header="曲线列表" CloseButtonVisibility="Collapsed" AllowClose="False" Margin="0">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <xctk:CheckListBox x:Name="fileList1" Margin="2,2,2,4" Grid.Row="2" ItemsSource="{Binding QXList}" DisplayMemberPath="FileName" ItemSelectionChanged="fileList_ItemSelectionChanged" SelectedItemsOverride="{Binding SelectedChartQXList}" />
+                            <CheckBox Content="全选" Margin="3,0,0,0" VerticalAlignment="Bottom" IsChecked="{Binding SelectChartAll}" HorizontalAlignment="Left" Grid.Row="1"/>
+                            <ig:XamNumericSlider x:Name="nSlider" Margin="0" d:LayoutOverrides="Width, Height" VerticalAlignment="Bottom" MinWidth="100" Value="3" MaxValue="10" LargeChange="2"/>
+                        </Grid>
+                    </igDock:ContentPane>
+                </igDock:SplitPane>
+                <igDock:SplitPane SplitterOrientation="Horizontal" igDock:XamDockManager.InitialLocation="DockedRight">
+                    <igDock:ContentPane Header="文件属性" CloseButtonVisibility="Collapsed" AllowClose="False">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <xctk:PropertyGrid SelectedObject="{Binding SelectedItem, ElementName=comboBox}" ShowSearchBox="False" ShowSortOptions="False" Grid.Row="1" />
+                            <ComboBox x:Name="comboBox" Margin="4" ItemsSource="{Binding QXList}" DisplayMemberPath="FileName"/>
+                        </Grid>
+                    </igDock:ContentPane>
+                </igDock:SplitPane>
+                <igDock:SplitPane SplitterOrientation="Horizontal"/>
+                <igDock:SplitPane/>
+                <igDock:SplitPane SplitterOrientation="Horizontal" igDock:XamDockManager.InitialLocation="DockedTop">
+                    <igDock:ContentPane Header="计算" CloseButtonVisibility="Collapsed" AllowClose="False">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="33.837"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <igDP:XamDataGrid x:Name="datagrid" Grid.Row="1" Margin="4" Theme="IGTheme" DataSource="{Binding QXComputeResultList, Mode=OneWay}" IsUndoEnabled="True" BindToSampleData="True">
+                                <igDP:XamDataGrid.FieldLayoutSettings>
+                                    <igDP:FieldLayoutSettings AllowFieldMoving="Yes"/>
+                                </igDP:XamDataGrid.FieldLayoutSettings>
+                                <igDP:XamDataGrid.FieldSettings>
+                                    <igDP:FieldSettings AllowGroupBy="True"
 													 SummaryDisplayArea="TopFixed" SummaryUIType="MultiSelect" AllowSummaries="True" GroupByMode="First2Characters" FilterStringComparisonType="CaseInsensitive"  />
-    							</igDP:XamDataGrid.FieldSettings>
-    						</igDP:XamDataGrid>
-    						<StackPanel Margin="8,8,0,4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
-    							<TextBlock TextWrapping="Wrap" Text="Ac范围" VerticalAlignment="Center"/>
-    							<xctk:IntegerUpDown Width="60" Margin="8,0,0,0" Value="{Binding AcRangeMin}" Minimum="0" Increment="10"/>
-    							<TextBlock TextWrapping="Wrap" Text="-" Margin="8,0,0,0" VerticalAlignment="Center"/>
-    							<xctk:IntegerUpDown Width="60" Margin="8,0,0,0" Value="{Binding AcRangeMax}" Minimum="0" Increment="10"/>
-    							<TextBlock TextWrapping="Wrap" Text="At范围" Margin="8,0,0,0" VerticalAlignment="Center"/>
-    							<xctk:IntegerUpDown Width="60" Margin="8,0,0,0" Value="{Binding AtRangeMin}" Minimum="0" Increment="10"/>
-    							<TextBlock TextWrapping="Wrap" Text="-" Margin="8,0,0,0" VerticalAlignment="Center"/>
-    							<xctk:IntegerUpDown Width="60" Margin="8,0,0,0" Value="{Binding AtRangeMax}" Minimum="0" Increment="10"/>
-    							<TextBlock TextWrapping="Wrap" Text="精度" Margin="8,0,0,0" VerticalAlignment="Center"/>
-    							<xctk:IntegerUpDown Margin="8,0,0,0" Width="60" Minimum="0" Value="{Binding Precision}"/>
-    							<Button Content="计算" Width="75" Margin="16,0,0,0" Command="{Binding ComputeCommand, Mode=OneWay}"/>
-    						</StackPanel>
-        
-    					</Grid>
-    				</igDock:ContentPane>
-    			</igDock:SplitPane>
-    			<igDock:SplitPane SplitterOrientation="Horizontal"/>
-    		</igDock:XamDockManager.Panes>
-    		<igDock:DocumentContentHost>
-    			<igDock:SplitPane>
-    				<igDock:TabGroupPane>
-    					<igDock:ContentPane Header="图表曲线" CloseButtonVisibility="Collapsed" AllowClose="False">
-    						<Grid>
-    							<Grid.RowDefinitions>
-    								<RowDefinition Height="0.943*"/>
-    								<RowDefinition Height="0.057*"/>
-    							</Grid.RowDefinitions>
-    							<ig:XamDataChart x:Name="dataChart" CircleMarkerTemplate="{StaticResource CircleMarkerTemplate}" Margin="2" >
-    								<ig:XamDataChart.Axes>
+                                </igDP:XamDataGrid.FieldSettings>
+                            </igDP:XamDataGrid>
+                            <StackPanel Margin="8,8,0,4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                                <TextBlock TextWrapping="Wrap" Text="Ac范围" VerticalAlignment="Center"/>
+                                <xctk:IntegerUpDown Width="60" Margin="8,0,0,0" Value="{Binding AcRangeMin}" Minimum="0" Increment="10"/>
+                                <TextBlock TextWrapping="Wrap" Text="-" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                                <xctk:IntegerUpDown Width="60" Margin="8,0,0,0" Value="{Binding AcRangeMax}" Minimum="0" Increment="10"/>
+                                <TextBlock TextWrapping="Wrap" Text="At范围" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                                <xctk:IntegerUpDown Width="60" Margin="8,0,0,0" Value="{Binding AtRangeMin}" Minimum="0" Increment="10"/>
+                                <TextBlock TextWrapping="Wrap" Text="-" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                                <xctk:IntegerUpDown Width="60" Margin="8,0,0,0" Value="{Binding AtRangeMax}" Minimum="0" Increment="10"/>
+                                <TextBlock TextWrapping="Wrap" Text="精度" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                                <xctk:IntegerUpDown Margin="8,0,0,0" Width="60" Minimum="0" Value="{Binding Precision}"/>
+                                <TextBlock TextWrapping="Wrap" Text="X轴范围" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                                <xctk:IntegerUpDown Margin="8,0,0,0" Width="60" Minimum="0" Value="{Binding MaximumValue, ElementName=xAxis}" Increment="10"/>
+                                <TextBlock TextWrapping="Wrap" Text="Y轴范围" Margin="8,0,0,0" VerticalAlignment="Center"/>
+                                <xctk:IntegerUpDown Margin="8,0,0,0" Width="60" Minimum="0" Value="{Binding MaximumValue, ElementName=yAxis}" Increment="1000"/>
+                                <Button Content="计算" Width="75" Margin="16,0,0,0" Command="{Binding ComputeCommand, Mode=OneWay}"/>
+                            </StackPanel>
 
-    									<ig:NumericXAxis x:Name="xAxis"  Interval="30" MinimumValue="0" MaximumValue="540"/>
-    									<ig:NumericYAxis x:Name="yAxis" Interval="4000" MinimumValue="0" MaximumValue="52000" />
-    								</ig:XamDataChart.Axes>
+                        </Grid>
+                    </igDock:ContentPane>
+                </igDock:SplitPane>
+                <igDock:SplitPane SplitterOrientation="Horizontal"/>
+            </igDock:XamDockManager.Panes>
+            <igDock:DocumentContentHost>
+                <igDock:SplitPane>
+                    <igDock:TabGroupPane>
+                        <igDock:ContentPane Header="图表曲线" CloseButtonVisibility="Collapsed" AllowClose="False">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0.943*"/>
+                                    <RowDefinition Height="0.057*"/>
+                                </Grid.RowDefinitions>
+                                <ig:XamDataChart x:Name="dataChart" CircleMarkerTemplate="{StaticResource CircleMarkerTemplate}" Margin="2" >
+                                    <ig:XamDataChart.Axes>
 
-    							</ig:XamDataChart>
-								<ig:Legend x:Name="titleLegend" Content="图例" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="6"/>
-    							<ig:XamNumericRangeSlider IsMouseWheelEnabled="True" Margin="42,0,6,8" Grid.Row="1" d:LayoutOverrides="Height" MinValue="0" MaxValue="540" DecreaseButtonVisibility="Collapsed" IncreaseButtonVisibility="Collapsed" SmallChange="5">
-    								<ig:XamNumericRangeSlider.TickMarks>
-    									<ig:SliderTickMarks TickMarksFrequency="10" />
+                                        <ig:NumericXAxis x:Name="xAxis"  Interval="30" MinimumValue="0" MaximumValue="540"/>
+                                        <ig:NumericYAxis x:Name="yAxis" Interval="4000" MinimumValue="0" MaximumValue="52000" />
+                                    </ig:XamDataChart.Axes>
+
+                                </ig:XamDataChart>
+                                <ig:Legend x:Name="titleLegend" Content="图例" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="6"/>
+                                <ig:XamNumericRangeSlider IsMouseWheelEnabled="True" Margin="42,0,6,8" Grid.Row="1" d:LayoutOverrides="Height" MinValue="0" MaxValue="540" DecreaseButtonVisibility="Collapsed" IncreaseButtonVisibility="Collapsed" SmallChange="5">
+                                    <ig:XamNumericRangeSlider.TickMarks>
+                                        <ig:SliderTickMarks TickMarksFrequency="10" />
                                     </ig:XamNumericRangeSlider.TickMarks>
-    								<ig:XamSliderNumericThumb ToolTipVisibility="Visible" IsSnapToTickEnabled="True" InteractionMode="Push" Value="{Binding AcRangeMin, Mode=TwoWay}">
-    									<ig:XamSliderNumericThumb.ToolTipTemplate>
-    										<DataTemplate>
-    											<TextBlock Text="AcMin"/>			
-											</DataTemplate>
-									</ig:XamSliderNumericThumb.ToolTipTemplate></ig:XamSliderNumericThumb>
-									<ig:XamSliderNumericThumb ToolTipVisibility="Visible" IsSnapToTickEnabled="True" InteractionMode="Push" Value="{Binding AcRangeMax, Mode=TwoWay}">
-									<ig:XamSliderNumericThumb.ToolTipTemplate>
-    										<DataTemplate>
-    											<TextBlock Text="AcMax"/>			
-											</DataTemplate>
-									</ig:XamSliderNumericThumb.ToolTipTemplate></ig:XamSliderNumericThumb>
-									<ig:XamSliderNumericThumb ToolTipVisibility="Visible" IsSnapToTickEnabled="True" InteractionMode="Push" Value="{Binding AtRangeMin, Mode=TwoWay}">
-									<ig:XamSliderNumericThumb.ToolTipTemplate>
-    										<DataTemplate>
-    											<TextBlock Text="AtMin"/>			
-											</DataTemplate>
-									</ig:XamSliderNumericThumb.ToolTipTemplate></ig:XamSliderNumericThumb>
-									<ig:XamSliderNumericThumb ToolTipVisibility="Visible" IsSnapToTickEnabled="True" InteractionMode="Push" Value="{Binding AtRangeMax, Mode=TwoWay}">
-									<ig:XamSliderNumericThumb.ToolTipTemplate>
-    										<DataTemplate>
-    											<TextBlock Text="AcMax"/>			
-											</DataTemplate>
-									</ig:XamSliderNumericThumb.ToolTipTemplate></ig:XamSliderNumericThumb>
-    							</ig:XamNumericRangeSlider>
-    							
-    							
-    						</Grid>
-    					</igDock:ContentPane>
-    				</igDock:TabGroupPane>
-    			</igDock:SplitPane>
-    		</igDock:DocumentContentHost>
-    	</igDock:XamDockManager>
-    	<ig:XamMenu Margin="0" ExpandOnHover="True">
-    		<ig:XamMenuItem Header="打开文件" FontSize="13.333">
-    			<i:Interaction.Triggers>
-    				<i:EventTrigger EventName="Click">
-    					<Custom:EventToCommand Command="{Binding SelectFileCommand, Mode=OneWay}"/>
-    				</i:EventTrigger>
-    			</i:Interaction.Triggers>
-    		</ig:XamMenuItem>
-    		<ig:XamMenuItem Header="打开文件夹" FontSize="13.333">
-    			<i:Interaction.Triggers>
-    				<i:EventTrigger EventName="Click">
-    					<Custom:EventToCommand Command="{Binding SelectDirectoryCommand, Mode=OneWay}"/>
-    				</i:EventTrigger>
-    			</i:Interaction.Triggers>
-    		</ig:XamMenuItem>
-    		<ig:XamMenuItem Header="日志" FontSize="13.333">
-    			<i:Interaction.Triggers>
-    				<i:EventTrigger EventName="Click">
-    					<ei:ChangePropertyAction TargetName="xamDialogWindow" TargetObject="{Binding ElementName=xamDialogWindow}" PropertyName="WindowState"/>
-    				</i:EventTrigger>
-    			</i:Interaction.Triggers>
-    		</ig:XamMenuItem>
-    	</ig:XamMenu>
-    	<ig:XamDialogWindow x:Name="xamDialogWindow" Margin="0" VerticalAlignment="Center" MaximizeButtonVisibility="Collapsed" MinimizeButtonVisibility="Collapsed" Header="日志" Width="400" Height="300" HorizontalAlignment="Center" WindowState="Hidden" IsModal="True" IsResizable="False" IsMoveable="False" Grid.RowSpan="2">
-    		<ListBox ItemsSource="{Binding Logs}" Margin="4"/>
-    	</ig:XamDialogWindow>
+                                    <ig:XamSliderNumericThumb ToolTipVisibility="Visible" IsSnapToTickEnabled="True" InteractionMode="Push" Value="{Binding AcRangeMin, Mode=TwoWay}">
+                                        <ig:XamSliderNumericThumb.ToolTipTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="AcMin"/>
+                                            </DataTemplate>
+                                        </ig:XamSliderNumericThumb.ToolTipTemplate>
+                                    </ig:XamSliderNumericThumb>
+                                    <ig:XamSliderNumericThumb ToolTipVisibility="Visible" IsSnapToTickEnabled="True" InteractionMode="Push" Value="{Binding AcRangeMax, Mode=TwoWay}">
+                                        <ig:XamSliderNumericThumb.ToolTipTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="AcMax"/>
+                                            </DataTemplate>
+                                        </ig:XamSliderNumericThumb.ToolTipTemplate>
+                                    </ig:XamSliderNumericThumb>
+                                    <ig:XamSliderNumericThumb ToolTipVisibility="Visible" IsSnapToTickEnabled="True" InteractionMode="Push" Value="{Binding AtRangeMin, Mode=TwoWay}">
+                                        <ig:XamSliderNumericThumb.ToolTipTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="AtMin"/>
+                                            </DataTemplate>
+                                        </ig:XamSliderNumericThumb.ToolTipTemplate>
+                                    </ig:XamSliderNumericThumb>
+                                    <ig:XamSliderNumericThumb ToolTipVisibility="Visible" IsSnapToTickEnabled="True" InteractionMode="Push" Value="{Binding AtRangeMax, Mode=TwoWay}">
+                                        <ig:XamSliderNumericThumb.ToolTipTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="AcMax"/>
+                                            </DataTemplate>
+                                        </ig:XamSliderNumericThumb.ToolTipTemplate>
+                                    </ig:XamSliderNumericThumb>
+                                </ig:XamNumericRangeSlider>
+
+
+                            </Grid>
+                        </igDock:ContentPane>
+                    </igDock:TabGroupPane>
+                </igDock:SplitPane>
+            </igDock:DocumentContentHost>
+        </igDock:XamDockManager>
+        <ig:XamMenu Margin="0" ExpandOnHover="True">
+            <ig:XamMenuItem Header="打开文件" FontSize="13.333">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <Custom:EventToCommand Command="{Binding SelectFileCommand, Mode=OneWay}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ig:XamMenuItem>
+            <ig:XamMenuItem Header="打开文件夹" FontSize="13.333">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <Custom:EventToCommand Command="{Binding SelectDirectoryCommand, Mode=OneWay}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ig:XamMenuItem>
+            <ig:XamMenuItem Header="日志" FontSize="13.333">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ei:ChangePropertyAction TargetName="xamDialogWindow" TargetObject="{Binding ElementName=xamDialogWindow}" PropertyName="WindowState"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ig:XamMenuItem>
+        </ig:XamMenu>
+        <ig:XamDialogWindow x:Name="xamDialogWindow" Margin="0" VerticalAlignment="Center" MaximizeButtonVisibility="Collapsed" MinimizeButtonVisibility="Collapsed" Header="日志" Width="400" Height="300" HorizontalAlignment="Center" WindowState="Hidden" IsModal="True" IsResizable="False" IsMoveable="False" Grid.RowSpan="2">
+            <ListBox ItemsSource="{Binding Logs}" Margin="4"/>
+        </ig:XamDialogWindow>
 
     </Grid>
 </Window>
