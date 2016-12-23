@@ -118,13 +118,25 @@
                                 <RowDefinition Height="33.837"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <igDP:XamDataGrid x:Name="datagrid" Grid.Row="1" Margin="4" Theme="IGTheme" DataSource="{Binding QXComputeResultList, Mode=OneWay}" IsUndoEnabled="True" BindToSampleData="True">
+                            <igDP:XamDataGrid x:Name="datagrid" Grid.Row="1" Margin="4" Theme="IGTheme" DataSource="{Binding QXDataGridItemList, Mode=OneWay}" IsUndoEnabled="True" BindToSampleData="True" AutoFit="True" GroupByAreaLocation="None">
+                                <!--<igDP:XamDataGrid.FieldLayouts>
+                                    <igDP:FieldLayout>
+                                        <igDP:Field Label="文件名" Name="FileName"/>
+                                        <igDP:Field Label="Ac峰值" Name="AcCrest"/>
+                                        <igDP:Field Label="At峰值" Name="AtCrest"/>
+                                        <igDP:Field Label="波谷" Name="TroughOfWave"/>
+                                        <igDP:Field Label="Ac(IP+IV)/2" Name="AcIPIV2"/>
+                                        <igDP:Field Label="At(IP+IV)/2" Name="AtIPIV2"/>
+                                        <igDP:Field Label="At面积" Name="SumT"/>
+                                        <igDP:Field Label="Ac面积" Name="SumC"/>
+                                        <igDP:Field Label="At/Ac" Name="AtAc"/>
+                                    </igDP:FieldLayout>
+                                </igDP:XamDataGrid.FieldLayouts>-->
                                 <igDP:XamDataGrid.FieldLayoutSettings>
-                                    <igDP:FieldLayoutSettings AllowFieldMoving="Yes"/>
+                                    <igDP:FieldLayoutSettings AllowFieldMoving="Yes" AllowClipboardOperations="Copy" CopyFieldLabelsToClipboard="False" AutoGenerateFields="True" />
                                 </igDP:XamDataGrid.FieldLayoutSettings>
                                 <igDP:XamDataGrid.FieldSettings>
-                                    <igDP:FieldSettings AllowGroupBy="True"
-													 SummaryDisplayArea="TopFixed" SummaryUIType="MultiSelect" AllowSummaries="True" GroupByMode="First2Characters" FilterStringComparisonType="CaseInsensitive"  />
+                                    <igDP:FieldSettings  SummaryDisplayArea="TopFixed" SummaryUIType="MultiSelect" AllowSummaries="True" GroupByMode="First2Characters" FilterStringComparisonType="CaseInsensitive" AllowEdit="False" AllowRecordFiltering="False" AutoSizeOptions="All" AutoSizeScope="AllRecords" AllowGroupBy="False"  />
                                 </igDP:XamDataGrid.FieldSettings>
                             </igDP:XamDataGrid>
                             <StackPanel Margin="8,8,0,4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
@@ -221,13 +233,6 @@
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <Custom:EventToCommand Command="{Binding SelectDirectoryCommand, Mode=OneWay}"/>
-                    </i:EventTrigger>
-                </i:Interaction.Triggers>
-            </ig:XamMenuItem>
-            <ig:XamMenuItem Header="日志" FontSize="13.333">
-                <i:Interaction.Triggers>
-                    <i:EventTrigger EventName="Click">
-                        <ei:ChangePropertyAction TargetName="xamDialogWindow" TargetObject="{Binding ElementName=xamDialogWindow}" PropertyName="WindowState"/>
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </ig:XamMenuItem>

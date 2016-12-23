@@ -28,7 +28,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>4</ApplicationRevision>
     <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -141,6 +141,7 @@
     <Compile Include="FileDataEditor.cs" />
     <Compile Include="Model\QX.cs" />
     <Compile Include="Model\QXComputeResult.cs" />
+    <Compile Include="Model\QXDataGridItem.cs" />
     <Compile Include="Model\QXItem.cs" />
     <Compile Include="QXComputer.cs" />
     <Compile Include="QXReader.cs" />

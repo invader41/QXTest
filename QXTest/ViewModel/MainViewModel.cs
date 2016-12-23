@@ -143,7 +143,25 @@ namespace QXTest.ViewModel
                 if (_computeCommand == null)
                     _computeCommand = new RelayCommand(delegate
                     {
-                        QXComputeResultList = QXComputer.ComputeQX(SelectedQXList, Precision, AtRangeMax, AtRangeMin, AcRangeMax, AcRangeMin);
+                        List<QXComputeResult> QXComputeResultList = QXComputer.ComputeQX(SelectedQXList, Precision, AtRangeMax, AtRangeMin, AcRangeMax, AcRangeMin);
+                        List<QXDataGridItem> items = new List<QXDataGridItem>();
+                        foreach (QXComputeResult computeResult in QXComputeResultList)
+                        {
+                            QXDataGridItem item = new QXDataGridItem
+                            {
+                                FileName = computeResult.FileName,
+                                AcCrest = computeResult.AcCrest.ToString(),
+                                AtCrest = computeResult.AtCrest.ToString(),
+                                AcIPIV2 = computeResult.AcIPIV2.ToString(),
+                                AtIPIV2 = computeResult.AtIPIV2.ToString(),
+                                SumC = computeResult.SumC.ToString(),
+                                SumT = computeResult.SumT.ToString(),
+                                TroughOfWave = computeResult.TroughOfWave.ToString(),
+                                AtAc = computeResult.AtAc.ToString()
+                            };
+                            items.Add(item);
+                        };
+                        this.QXDataGridItemList = items;
                     });
                 return _computeCommand;
             }
@@ -204,17 +222,17 @@ namespace QXTest.ViewModel
             }
         }
 
-        private List<QXComputeResult> _QXComputeResultList;
-        public List<QXComputeResult> QXComputeResultList
+        private List<QXDataGridItem> _QXDataGridItemList;
+        public List<QXDataGridItem> QXDataGridItemList
         {
             get
             {
-                return _QXComputeResultList;
+                return _QXDataGridItemList;
             }
             set
             {
-                _QXComputeResultList = value;
-                RaisePropertyChanged("QXComputeResultList");
+                _QXDataGridItemList = value;
+                RaisePropertyChanged("QXDataGridItemList");
             }
         }
 
